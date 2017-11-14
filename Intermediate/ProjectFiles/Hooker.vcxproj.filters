@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Hooker.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{014D01C2-3911-48E9-A967-4815EBA1B0FF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Hooker.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\HookerEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4A92FB51-DA40-4BB2-9F79-F9A63DCE3236}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Hooker">
+			<UniqueIdentifier>{E063B681-534A-4478-9CE1-82E8B1A736E9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Hooker\Hooker.Build.cs">
+			<Filter>Source\Hooker</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Hooker\Hooker.cpp">
+			<Filter>Source\Hooker</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Hooker\Hooker.h">
+			<Filter>Source\Hooker</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Hooker\HookerCharacter.cpp">
+			<Filter>Source\Hooker</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Hooker\HookerCharacter.h">
+			<Filter>Source\Hooker</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Hooker\HookerGameMode.cpp">
+			<Filter>Source\Hooker</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Hooker\HookerGameMode.h">
+			<Filter>Source\Hooker</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
